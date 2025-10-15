@@ -1,0 +1,35 @@
+# Arquivo de configuração com informações sensíveis
+assets/js/config.js
+
+# Arquivos gerados automaticamente
+ads.txt
+
+# Arquivos de som não utilizados (migrados para pasta ignored)
+assets/sounds/ignored/
+
+# Imagens não utilizadas (migradas para pasta ignored)
+assets/images/ignored/
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node modules (se usar npm/yarn)
+node_modules/
+
+# Arquivos de backup
+*.bak
+*.backup

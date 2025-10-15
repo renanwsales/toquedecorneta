@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Página não encontrada - Toque de Corneta</title>
+	<meta name="description" content="A página que você procura não foi encontrada. Volte ao Toque de Corneta para acessar os toques militares.">
+	<link rel="icon" type="image/png" href="assets/images/favicon.png">
+	<link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/config.js"></script>
+    <script>
+        // Carrega o script do AdSense com o Client ID dinâmico
+        const script = document.createElement('script');
+        script.async = true;
+        script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + getAdSenseClientId();
+        script.crossOrigin = 'anonymous';
+        document.head.appendChild(script);
+    </script>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1>🎺 Página não encontrada</h1>
+		</header>
+		<main>
+			<div class="ads-container">
+				<ins class="adsbygoogle"
+					style="display:block"
+					data-ad-client=""
+					data-ad-format="auto"
+					data-full-width-responsive="true"></ins>
+				<script>
+					(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div>
+			<section>
+				<h2>Ops! Página não encontrada</h2>
+				<p>A página que você está procurando não existe ou foi movida.</p>
+				<p>Que tal voltar ao início e explorar nossos toques de corneta?</p>
+			</section>
+			<section>
+				<h2>Páginas disponíveis:</h2>
+				<ul class="guide">
+					<li><a href="index.html">🏠 Página inicial</a> - Lista de toques</li>
+					<li><a href="sobre.html">ℹ️ Sobre</a> - Conheça o projeto</li>
+					<li><a href="como-usar.html">📖 Como usar</a> - Instruções</li>
+					<li><a href="guia.html">📋 Guia dos Toques</a> - Descrições detalhadas</li>
+					<li><a href="faq.html">❓ FAQ</a> - Perguntas frequentes</li>
+					<li><a href="contato.html">📧 Contato</a> - Fale conosco</li>
+				</ul>
+			</section>
+			<p><a href="index.html">🏠 Voltar ao início</a></p>
+		</main>
+	</div>
+	<footer>
+		<p>Desenvolvido por <strong>Renan Sales</strong></p>
+		<div>
+			<a href="https://www.linkedin.com/in/renan-sales/" target="_blank">
+				<img src="assets/images/linkedin.svg" alt="LinkedIn">LinkedIn
+			</a>
+			<a href="https://github.com/renanwsales" target="_blank">
+				<img src="assets/images/github.svg" alt="GitHub">GitHub
+			</a>
+			<a href="contato.html">Contato</a>
+			<a href="sobre.html">Sobre</a>
+			<a href="como-usar.html">Como usar</a>
+			<a href="guia.html">Guia dos Toques</a>
+			<a href="faq.html">FAQ</a>
+			<a href="privacy.html">Política de Privacidade</a>
+		</div>
+	</footer>
+	<script src="assets/js/cookie-consent.js"></script>
+	<script>
+		// Preenche os data-ad-client dinamicamente
+		document.addEventListener('DOMContentLoaded', function() {
+			const adElements = document.querySelectorAll('[data-ad-client=""]');
+			adElements.forEach(element => {
+				element.setAttribute('data-ad-client', getAdSenseClientId());
+			});
+		});
+	</script>
+</body>
+</html>
